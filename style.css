@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    background-image: url(html.jpg);
+    background-size: 100% 120%;
+    height:  100vh;
+    width: 100%;
+
+    color: aliceblue;
+}
+.menu{
+    width: 20%;
+    height: 20px;
+    background-color: rgba(13, 14, 13,0.8);
+
+}
+.leftmenu{
+    width: 20%;
+    line-height: 80px;
+    float: left;
+    font-family:'montserrat',sans-serif;
+    font-weight: bold;
+}
+.leftmenu h4{
+    padding: 50px;
+    font: medium;
+    color: rgb(154, 201, 240);
+
+
+
+}
+.rghtmenu{
+    width: 30%;
+    height: 100px;
+    float: right;
+    
+    
+}
+.leftmenu ul{
+    text-transform: uppercase;
+}
+.rghtmenu ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    
+    
+}
+#firstlist{
+    color: orange;
+}
+#firstlist :hover{
+color: rgb(0, 255, 68);
+}
+
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-align: center;
+    
+    
+}
+#center{
+    text-transform: capitalize;
+    font-size: 50;
+}
+#padding{
+    padding-left: 80px;
+    padding-right: 80px;
+}
